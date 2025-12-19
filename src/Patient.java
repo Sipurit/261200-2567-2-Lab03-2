@@ -7,8 +7,6 @@ public class Patient {
     private String bloodGroup;
     private String phoneNumber;
     public Patient(int id, String name, int birthYear, double height, double weight, String bloodGroup, String phoneNumber){
-        double theight = this.height;
-        double tweight = this.weight;
         if(id < 0){
             System.out.println("! Invalid id -> Using default id !");
             this.id = 0;
